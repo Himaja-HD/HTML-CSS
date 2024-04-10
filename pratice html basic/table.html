@@ -6,7 +6,7 @@
     <title>table</title>
     <style>
         th{
-            text-align: left;
+            text-align: center;
         }
         td{
             text-align: center;
@@ -17,26 +17,74 @@
 <h3>A table with 3 column that spans 50% of the window width: </h3>
 <table style="width:50%">
     <tr style="background-color: grey; color: azure;">
-        <th>First Name</th>
+        <th >First Name</th>
         <th>Last Name</th>
         <th>Course</th>
     </tr>
-    <tr style="color:blueviolet">
-        <th>khan</th>
-        <th>shah</th>
-        <th>WMA</th>
+    <tr style="color:blueviolet;">
+        <td>khan</td>
+        <td>shah</td>
+        <td>WMA</td>
     </tr>
-    <tr style="color:palevioletred">
-        <th>kajol</th>
-        <th>david</th>
-        <th>DA</th>
+    <tr style="color:palevioletred;">
+        <td>kajol</td>
+        <td>david</td>
+        <td>DA</td>
     </tr>
-    <tr style="color:lightgreen">
-        <th>Prithvi</th>
-        <th>shaw</th>
-        <th>ITES</th>
+    <tr style="color:lightgreen;">
+        <td>Prithvi</td>
+        <td>shaw</td>
+        <td>ITES</td>
     </tr>
 
+</table>
+
+<table style="margin-top:50px; border: 2px solid burlywood;">
+    <tr style="background-color: palevioletred;">
+        <th>Name</th>
+        <th>Contact</th>
+    </tr>
+    <tr>
+        <td>Sirisha</td>
+        <td>9864367960</td>
+    </tr>
+    <tr>
+        <td>Geeta</td>
+        <td>9986460356</td>
+    </tr>
+    <tr>
+        <td>neeraja</td>
+        <td>8765083377</td>
+    </tr>
+    <tr>
+        <td>mohana</td>
+        <td>9749459388</td>
+    </tr>
+</table>
+<br>
+<h3>65% of the window width and uses merged column</h3>
+<table style="border: solid 2px black; background-color: rgb(222, 215, 206); width:65%">
+    <tr>
+        <th style="border: solid 2px black;">Name</th>
+        <th colspan="2" style="border: solid 2px black;">Weekly Score</th>
+    </tr>
+    <td>   
+    <tr>
+        <td style="border: solid 2px black; color:rgb(34, 105, 81)">sweety</td>
+        <td style="border: solid 2px black;">90</td>
+        <td style="border: solid 2px black;">80</td>
+    </tr>
+    <tr>
+        <td style="border: solid 2px black; color:lightseagreen" >Honey</td>
+        <td style="border: solid 2px black;">80</td>
+        <td style="border: solid 2px black;">90</td>
+    </tr>
+    <tr>
+        <td style="border: solid 2px black; color: rgb(7, 125, 125);">mani</td>
+        <td style="border: solid 2px black;">87</td>
+        <td style="border: solid 2px black;">87</td>
+    </tr>
+    </td>
 </table>
 
 </body>
