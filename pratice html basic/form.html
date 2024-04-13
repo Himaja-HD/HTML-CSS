@@ -4,10 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms!</title>
+    <style>
+        body{
+            background-color: blanchedalmond;
+            border-radius: 8px;
+            border: double black 8px;
+        }
+        form{
+            padding-left:20px;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <h1>Form</h1>
     <form>
-        <input>
+        <label>FirstName</label>
+        <input type="text" maxlength="12" name="firstname">
+        <br>
+        <br>
+        <label>LastName</label>
+        <input type="text" maxlength="12" name="lastname">
+        <br>
+        <br>
+        <label>please write a message:</label><br>
+        <textarea row="5" col="35" name="msgbox"></textarea>
+        <br><br>
+        <label>Please enter your favorite number less than or equal to 10:</label><br>
+        <input type="number" max="10" name="favnum">
+        <br><br>
+        <label>Please enter your password:</label>
+        <input type="password" name="password">
+        <br><br>
+        <label>Please enter your Email Address:</label>
+        <input type="email" name="email">
+        <br><br>
+        <label>Radio buttons with one checkd by default:</label><br>
+        <input type="radio" name="gender" checked>male</input>
+        <input type="radio" name="gender" >female</input>
+        <br><br>
+        <label>checkboxes that are checked by default:</label><br>
+        <input type="checkbox" name="hobbies" checked>Singing</input>
+        <input type="checkbox" name="hobbies" checked>Cooking</input>
+        <input type="checkbox" name="hobbies" checked>Dancing</input><br>
+        <input type="checkbox" name="hobbies" checked>Painting</input>
+        <input type="checkbox" name="hobbies" checked>Swimming</input>
+        <input type="checkbox" name="hobbies" checked>Writing</input>
+        <br><br>
+        <label>Dropdown list that allows users to pick one option,with one selected by default:</label>
+        <select name="course">
+            <option>WMA</option>
+            <option>AI</option>
+            <option>DA</option>
+            <option>IETS</option>
+        </select>
+        <br><br>
+        <label>A drop-down list that shows 2 options at a time and allows users to pick multiple options using the ctrl key: </label>
+        <select name="shape" size="2" multiple>
+            <option>square</option>
+            <option>circle</option>
+            <option>triangle</option>
+            <option>hexagon</option>
+        </select>
+        <br><br>
+        <label>A color picker:<br>
+        please choose your favorite color:</label>
+        <input type="color" name="favcolor">
+        <br><br>
+        <label>A date picker with date restrictions:<br>
+        Please select a date in 2024</label>
+        <input type="date" name="somedate" min="2024-01-01" max="2024-12-31">
+        <br><br>
+        <label>A silder set to the minimum value by default:</label>
+        0 <input type="range" value="0"> 10
+        <br><br>
+        <input type="button" onclick="alert('you clicked me !')" value="button">
+        <input type="submit"  value="submit">
+        <input type="reset" value="reset">
+
+
+
     </form>
 </body>
 </html>
