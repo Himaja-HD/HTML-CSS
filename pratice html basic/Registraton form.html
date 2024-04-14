@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <style>
+        input{
+            margin: 10px;
+        }
+        legend{
+            background-color: rgba(11, 155, 110, 0.971);
+            color: white;
+            padding: 5px;
+        }
+        fieldset{
+            background-color: aquamarine;
+            color: black;
+        }
+        body{
+            background-color: rgb(0, 11, 7);
+            color: white;
+        }
+        button{
+            background-color:rgba(11, 155, 110, 0.971);
+            padding: 10px;
+            border: white;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend><b>User personal information</b></legend>
+            <label>Input your Full Name: </label>
+            <input type="text" name="name"><br>
+            <label>Input your Email: </label>
+            <input type="email" name="email"><br><br>
+            <label>Input your Password: </label>
+            <input type="password" name="pass"><br><br>
+            <label>Confirm your Password: </label>
+            <input type="password" name="pass"><br><br>
+            <label>Input your Gender: </label><br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female">Female<br><br>
+            <label>Input your Address:</label><br>
+            <textarea></textarea><br><br>
+            <button type="submit" value="sign-up"><b>Submit</b></button>
+        </fieldset>
+    </form>
+</body>
+</html>
