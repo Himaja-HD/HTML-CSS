@@ -28,7 +28,35 @@ li a{
     color: black;
     padding: 20px;
 }
-a:hover{
+.nav:hover{
     background-color:#201658;
     color: white;
+}
+footer{
+    margin-top:1%;
+    height: 120px;
+    background-color: #201658;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px;
+}
+.show{
+    height:200px ;
+    margin-top: 50px;
+    text-align: center;   
+}
+.bg1{
+    margin-top: 30px;
+    width:1200px;
+    height: 500px;
+    border-radius: 10px;
+}
+.bg-show{
+    background-image: radial-gradient(rgb(118, 118, 192),rgb(162, 194, 208));
+    padding:30px;
+    border-radius: 8px;
 }

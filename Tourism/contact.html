@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body{
+            background-image: linear-gradient(to right,#5d5681 ,blanchedalmond,#3b28a3);
+        }
+        form{
+            background-color:#201658 ;
+            color: blanchedalmond;
+            padding: 20px;
+            width: 450px;
+            height: 350px;
+            padding-left: 20px;
+            border: solid 5px blanchedalmond;
+            border-right: 50px solid blanchedalmond;
+            margin-top: 100px;
+            margin-left: 350px;      
+        }
+        button{
+            background-color: blanchedalmond;
+            width: 80px;
+            height: 40px;
+            border: none;
+            border-radius: 50px;
+            margin-left: 330px;
+        }
+        input{
+            height: 20px;
+            width:220px;
+            background-color: blanchedalmond;
+        }
+        textarea{
+            width:220px;
+            height:50px;
+            margin-top: 0px;
+            background-color: blanchedalmond;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+   
+    <form>
+        <h1>Feedback</h1>
+        <label for="name">Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp</label>
+        <input type="text" id="name" required><br><br>
+        <label for="Email">Email &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp</label>
+        <input type="email" id="Email" required><br><br>
+        <label for="phonenumber">Contact &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp:&nbsp</label>
+        <input type="tel" id="phonenumber" maxlength="10" required><br><br>
+        <label for="Feedback">Feedback &nbsp&nbsp&nbsp&nbsp: </label><br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<textarea maxlength="200" id="Feedback" required>
+
+        </textarea><br><br>
+
+        <button>Send</button>
+    </form>
+  
+
+</body>
+</html>
